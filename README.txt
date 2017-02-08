@@ -11,10 +11,10 @@ Scripts:
 -newscript.sh:
 
      Description:
-     This script is used to create other scripts. instead of making a file, setting it to /bin/bash, adding the date, and making it  excutable; this script does all of that for you
+     used to create other scripts. instead of making a file, setting it to /bin/bash, adding the date, and making it  excutable; this script does all of that for you
 
      Use:
-     the script works by taking the first option you give the command and creating a file with that name. it then writes some basic stuff to the file and makes it excutable.
+     takes the first option you give the command and creating a file with that name. it then writes some basic stuff to the file and makes it excutable.
      EX: $./newscript HelloWorld.sh
      
      
