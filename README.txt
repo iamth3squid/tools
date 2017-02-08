@@ -21,4 +21,11 @@ Scripts:
 -setstatic
   IN PROGRESS
   
+  
+  
+-checkutilization
+ IN PROGRESS
+ 
+ More to come
+ 
 
