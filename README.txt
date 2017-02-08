@@ -24,6 +24,18 @@ Scripts:
   
   
 -checkutilization
+
+-getrepo
+
+     Description:
+     used to get repos from github without having to remember the commands
+     
+     Use:
+     use a link to a github repo as the first option for the script
+     
+     EX: $ ./getrepo github.com/user/repo
+     
+     
  IN PROGRESS
  
  More to come
