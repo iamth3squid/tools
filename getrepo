@@ -19,4 +19,7 @@ LINK=$1
 # combine link and command
 git clone git://$LINK
 
+#end of file
+fi
+
 # add more features
