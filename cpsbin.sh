@@ -20,14 +20,14 @@ else
 
         # add script stuff
         sudo cp $1 /usr/local/sbin
-        echo "File moved"
+        echo "-File moved"
    
         
         # Add Execute permissions
         sudo chmod +x /usr/local/sbin/$1
 
         # Finish
-        echo "Added excute permission"
+        echo "-Added excute permission"
 
 
 fi
