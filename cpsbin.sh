@@ -24,7 +24,7 @@ else
    
         
         # Add Execute permissions
-        chmod +x /usr/local/sbin/$1
+        sudo chmod +x /usr/local/sbin/$1
 
         # Finish
         echo "File moved and added The excute permission"
