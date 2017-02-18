@@ -2,10 +2,8 @@
 #mvsbin.sh
 #2/17/2017
 #moves script to sbin and makes it excutable 
-
-
 #Need to give the name of the script you want to move as the first option
-# EX: mvsbin.sh MYSCRIPT
+#EX: mvsbin.sh MYSCRIPT
 
 
 if [ -z "$1" ]; then
@@ -19,8 +17,8 @@ else
         
 
         # add script stuff
-        sudo mv $1 /usr/local/sbin
-        echo "File moved\n"
+        sudo cp $1 /usr/local/sbin
+        echo "File moved"
    
         
         # Add Execute permissions
@@ -31,4 +29,3 @@ else
 
 
 fi
-
