@@ -27,7 +27,7 @@ else
         sudo chmod +x /usr/local/sbin/$1
 
         # Finish
-        echo "File moved and added The excute permission"
+        echo "Added excute permission"
 
 
 fi
