@@ -6,9 +6,16 @@
 
 #Check for option
 
-if [ -z $1 ] then;
+if [ -z "$1" ]; then
 
  echo Need to use the file name as first option
  
 else
-sed 's/^/#/' file.txt
+
+ FILENAME=$1
+ 
+ #command
+ sed 's/^/#/' $FILENAME
+ 
+fi
+#END
