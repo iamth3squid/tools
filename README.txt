@@ -36,6 +36,15 @@ Scripts:
      EX: $ ./getrepo github.com/user/repo
      
      
+-adddrivetolvm
+     Description:
+     used to add drives to lvm. partions the drive and adds the space to a LVM
+     
+     Use:
+     you need the name of the drive, lvm name, and path of logical volume.
+     
+     
+     
  IN PROGRESS
  
  More to come
