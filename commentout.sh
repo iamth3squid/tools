@@ -15,7 +15,7 @@ else
  FILENAME=$1
  
  #command
- sed 's/^/#/' $FILENAME
+ sed 's/^/#/' $FILENAME >> $FILENAME
  
 fi
 #END
